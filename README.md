@@ -29,7 +29,6 @@ In this lesson we will look at embedding audio and video into your HTML pages.
 <audio controls>
   <source src="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/purrr.mp3" type="audio/mp3">
   <source src="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/purrr.ogg" type="audio/ogg">
-  <p>Sorry your browser doesn't support HTML5 Video! Please <a href="http://browsehappy.com/?locale=en">upgrade your browser</a>.</p>
 </audio>
 
 ### Video
@@ -47,7 +46,6 @@ In this lesson we will look at embedding audio and video into your HTML pages.
 <video controls>
   <source src="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/real-estate.mp4" type="video/mp4">
   <source src="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/real-estate.ogv" type="video/ogg">
-  <p>Sorry your browser doesn't support HTML5 Video! Please <a href="http://browsehappy.com/?locale=en">upgrade your browser</a>.</p>
 </video>
 
 ## Summary
