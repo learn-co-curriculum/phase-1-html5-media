@@ -36,7 +36,7 @@ On line 1 we start our opening `<audio>` tag. We have also inserted the `control
 
 ### Video
 
-We can also embed video clips into our pages. We do this by including the `<video>` element. Enclosed within the video element are `source` elements that point to the location of various audio file formats. The reason we provide multiple source files, is that not all browsers support both video codecs required for playback. By providing either an MP4 (h264) and OGV, or MP4 (h264) and WEBM file, we insure that all browsers will be able to play the content.
+We can also embed video clips into our pages. We do this by including the `<video>` element. Enclosed within the video element are `source` elements that point to the location of various video file formats. The reason we provide multiple source files, is that not all browsers support both video codecs required for playback. By providing either an MP4 (h264) and OGV, or MP4 (h264) and WEBM file, we insure that all browsers will be able to play the content.
 
 ```html
 <video controls>
@@ -71,3 +71,4 @@ See the resource links at the bottom of the lesson for a few reccomended free au
 - [JavaScript HTML5 Video Player Comparison](https://praegnanz.de/html5video/)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/HTML5-Media' title='HTML5 Media'>HTML5 Media</a> on Learn.co and start learning to code for free.</p>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/HTML5-Media'>HTML5 Media </a> on Learn.co and start learning to code for free.</p>
