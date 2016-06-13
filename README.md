@@ -67,8 +67,6 @@ See the resource links at the bottom of the lesson for a few reccomended free au
 - [Presentation Slides](https://docs.google.com/presentation/d/1R2usO7eha-xvU6McOYjR8n2papGK-gzW_LwO4AM5NTA/edit?usp=sharing)
 - [Audacity - Free Audio Editor/Converter](https://sourceforge.net/projects/audacity/)
 - [MediaHuman - Free Audio Converter](http://www.mediahuman.com/audio-converter/)
-- [Miro - Free Video Converter](http://www.mirovideoconverter.com/)
 - [JavaScript HTML5 Video Player Comparison](https://praegnanz.de/html5video/)
 
-<p data-visibility='hidden'>View <a href='https://learn.co/lessons/HTML5-Media' title='HTML5 Media'>HTML5 Media</a> on Learn.co and start learning to code for free.</p>
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/HTML5-Media'>HTML5 Media </a> on Learn.co and start learning to code for free.</p>
