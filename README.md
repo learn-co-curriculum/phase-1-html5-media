@@ -60,7 +60,7 @@ See the resource links at the bottom of the lesson for a few recommended free au
 ## Summary
 
 - We can easily embed audio and video into HTML pages using the appropriate `<audio>` or `<video>` element.
-- Media elements contain `<source>` elements within them that point to different source files. This insures the browser can play one or the other source type. Unsupported sources will be ignored and once a source file is usable all other code within the media elements block will be ignore.
+- Media elements contain `<source>` elements within them that point to different source files. This insures the browser can play one or the other source type. Unsupported sources will be ignored and once a source file is usable all other code within the media elements block will be ignored.
 
 ## Resources
 
