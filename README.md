@@ -55,7 +55,7 @@ On line 1 we start our opening `<video>` tag with the `controls` attribute. For 
 
 ### File Conversion
 
-See the resource links at the bottom of the lesson for a few reccomended free audio and video converters you can use to change one file type to another. This is helpful to create both source file types needed. 
+See the resource links at the bottom of the lesson for a few recommended free audio and video converters you can use to change one file type to another. This is helpful to create both source file types needed. 
 
 ## Summary
 
