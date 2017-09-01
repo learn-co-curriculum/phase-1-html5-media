@@ -17,7 +17,7 @@ In this lesson we will look at embedding audio and video into your HTML pages.
 
 ### Audio
 
-A nice feature of HTML5 is the ability to embed audio clips. We can do this by including the `<audio>` element. Enclosed within the audio element are `source` elements that point to the location of various audio file formats. The reason we provide multiple source files, is that not all browsers support both audio codecs required for playback. By providing both an MP3 as well as a OGG file we insure that all browsers will be able to play the content.
+A nice feature of HTML5 is the ability to embed audio clips. We can do this by including the `<audio>` element. Enclosed within the audio element are `source` elements that point to the location of various audio file formats. The reason we provide multiple source files is that not all browsers support both audio codecs required for playback. By providing both an MP3 file and an OGG file, we ensure that all browsers will be able to play the content.
 
 ```html
 <audio controls>
@@ -32,7 +32,7 @@ A nice feature of HTML5 is the ability to embed audio clips. We can do this by i
   <source src="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/purrr.ogg" type="audio/ogg">
 </audio>
 
-On line 1 we start our opening `<audio>` tag. We have also inserted the `controls` attribute which is required to display the audio controls to start playback, pause, the recording etc. Notice that this particular attribute does not require a value. Just the presence of the attribute name itself is sufficient. There are additional attributes you can provide such as `autoplay` and `loop`. For the full list of accepted attributes check out the links below at the bottom of this lesson, for the MDN documentation. On lines 2 and 3 we provide two different source files for playback. If the browser does not recognize the first filetype it will ignore it and move on to the next. If neither of the formats are supported it will display the paragraph instead on line 4. If the browser is able to play one of the source files it will ignore any other code below until it reaches the closing `</audio>` tag. For source we must set the `src` location of the file by providing the relative path to the file, and the `type` which clues the browser as to which audio codec is suitable for that particular filetype.
+On line 1, we start our opening `<audio>` tag. We have also inserted the `controls` attribute, which is required to display the audio controls to start and pause playback, adjust the recording's volume, etc. Notice that this particular attribute does not require a value. Just the presence of the attribute name itself is sufficient. There are additional attributes you can provide such as `autoplay` and `loop`. For the full list of accepted attributes check out the links below at the bottom of this lesson, for the MDN documentation. On lines 2 and 3 we provide two different source files for playback. If the browser does not recognize the first filetype it will ignore it and move on to the next. If neither of the formats are supported it will display the paragraph instead on line 4. If the browser is able to play one of the source files it will ignore any other code below until it reaches the closing `</audio>` tag. For source we must set the `src` location of the file by providing the relative path to the file, and the `type` which clues the browser as to which audio codec is suitable for that particular filetype.
 
 ### Video
 
@@ -51,7 +51,7 @@ We can also embed video clips into our pages. We do this by including the `<vide
   <source src="http://ironboard-curriculum-content.s3.amazonaws.com/front-end/lab-assets/real-estate.ogv" type="video/ogg">
 </video>
 
-On line 1 we start our opening `<video>` tag with the `controls` attribute. For the full list of accepted attributes check out the links below at the bottom of this lesson. On lines 2 and 3 we provide two different source files for playback. If the browser does not recognize the first filetype it will ignore it and move on to the next just the same as it does for the audio element. If neither of the formats are supported it will display the paragraph instead on line 4. If the browser is able to play one of the source files it will ignore any other code below until it reaches the closing `</video>` tag. For source we must set the `src` location of the file by providing the relative path to the file, and the `type` which clues the browser as to which video codec is suitable.
+On line 1 we start our opening `<video>` tag with the `controls` attribute. For the full list of accepted attributes check out the links below at the bottom of this lesson. On lines 2 and 3 we provide two different source files for playback. If the browser does not recognize the first filetype it will ignore it and move on to the next just the same as it does for the audio element. If neither of the formats are supported it will display the paragraph instead on line 4. If the browser is able to play one of the source files it will ignore any other code below until it reaches the closing `</video>` tag. We must use `src` to specify a relative path to the location of the file and `type` to tell the browser which video codec is suitable.
 
 ### File Conversion
 
@@ -60,7 +60,7 @@ See the resource links at the bottom of the lesson for a few recommended free au
 ## Summary
 
 - We can easily embed audio and video into HTML pages using the appropriate `<audio>` or `<video>` element.
-- Media elements contain `<source>` elements within them that point to different source files. This insures the browser can play one or the other source type. Unsupported sources will be ignored and once a source file is usable all other code within the media elements block will be ignored.
+- Media elements contain `<source>` elements within them that point to different source files. This ensures the browser can play one or the other source type. Unsupported sources will be ignored and once a source file is usable all other code within the media elements block will be ignored.
 
 ## Resources
 
