@@ -18,12 +18,13 @@ How is this done today?
 
 ## Demonstrate How to Embed Audio Elements in HTML5
 Embedding audio can be a nice touch to a website. If you had a MySpace page back
-in the 2000s, you can probably heavily relate to this. HTML was very different back
-then. The HTML tags were not semantic, especially not for media, and it was less forgiving
-to install. If you wanted to embed audio, you often times also needed to embed an audio 
-player, which might have to be flash, java, or javascript based. If you did not, you 
-could easily play audio with no way for the user to control it. This is no longer an
-issue, as HTML5 has its own default media players supported in the browser.
+in the 2000s, you can probably to this. HTML was very different back
+then. The HTML tags were not semantic, especially not for media, and it was less 
+forgiving to install. If you wanted to embed audio, you also needed to embed an 
+audio  player, which might have to be flash, java, or javascript based. If you did 
+not, you could mistakenly start audio with no way for the user to control it. 
+This is no longer an issue, as HTML5 has its own default media players supported 
+in the browser.
 
 We can do this now by including the <audio> element. Enclosed within the audio element are 
 source elements that point to the location of various audio file formats. The reason we 
