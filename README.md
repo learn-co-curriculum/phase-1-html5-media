@@ -1,6 +1,7 @@
 # Working with HTML5 Media
 
 ## Problem Statement
+
 The internet is a highly interactive environment. You've likely seen audio and 
 video elements supporting text content, such as in news sites, blogs, social media,
 or other multimedia-rich websites. You've likely encountered an all-in-one line of code
