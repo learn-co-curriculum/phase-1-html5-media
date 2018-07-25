@@ -16,7 +16,7 @@ people possible on the most devices? That will be the focus of this lesson.
 
 ## Explain The History Of Media On The Web
 
-In the early days of HTML, media elements were were more difficult to use. They
+In the early days of HTML, media elements were more difficult to use. They
 would often require the user to download and install a plugin. Media plugins
 you might recall were Macromedia Flash, Adobe Shockwave, and Java. This
 commercial plugin approach brings about a number of problems.
