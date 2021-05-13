@@ -102,7 +102,7 @@ the browser does not recognize the first filetype it will ignore it and move on
 to the next just the same as it does for the audio element. If neither of the
 formats are supported it will display the paragraph instead on line four. If
 the browser is able to play one of the source files, it will. The others
-sources within the `<audio>` tag will be ignored.
+sources within the `<video>` tag will be ignored.
 
 ## Link to Audio and Video Converters
 
