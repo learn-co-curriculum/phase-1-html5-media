@@ -1,4 +1,4 @@
-# Working with HTML5 Media
+# HTML5 Media
 
 ## Problem Statement
 
